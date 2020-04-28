@@ -12,7 +12,7 @@ Options:
 
 from docopt import docopt
 import name
-__version__ = "0.1.0"
+from version import __version__
 
 
 def main(args):
