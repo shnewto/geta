@@ -1,5 +1,5 @@
 import unittest
-from src.somenames import generateName, NameType
+from something.somenames import generateName, NameType
 
 
 class TestGenerateName(unittest.TestCase):

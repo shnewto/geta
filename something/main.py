@@ -10,15 +10,14 @@ Options:
   name <type>      Name type [default:  --full].
 """
 
-VERSION = "version 0.1.0"
-
 from docopt import docopt
-from src.somenames import generateName, NameType
+from somenames import generateName, NameType
+__version__ = "0.1.0"
 
 
 def main(args):
     if args["--version"]:
-        print(VERSION)
+        print("version", __version__)
         return
 
     if args["name"]:
