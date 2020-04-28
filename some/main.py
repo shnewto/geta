@@ -11,7 +11,7 @@ Options:
 """
 
 from docopt import docopt
-from somenames import generateName, NameType
+from name import generateName, NameType
 __version__ = "0.1.0"
 
 
