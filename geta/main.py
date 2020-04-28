@@ -11,7 +11,7 @@ Options:
 """
 
 from docopt import docopt
-from name import generateName, NameType
+import name
 __version__ = "0.1.0"
 
 
@@ -22,11 +22,11 @@ def main(args):
 
     if args["name"]:
         if args["--first"]:
-            print(generateName(NameType.FIRST))
+            print(name.first_name())
         elif args["--last"]:
-            print(generateName(NameType.LAST))
+            print(name.last_name())
         else:
-            print(generateName(NameType.FULL))
+            print(name.full_name())
 
 
 if __name__ == "__main__":

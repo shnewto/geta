@@ -1,30 +1,30 @@
-# some
-A Python CLI app to provide you random instances of some _thing_. It's starting out with simply random names, but I like the idea of the `some` producing many more _things_.
+# geta, for when you need to "get a" random thing
+A Python CLI app to get a random instance of a _thing_. It's starting out with simply providing random names, but I like the idea of the `geta` being able to get many more _things_.
 
 ## Usage
 
-### `some name`
+### `geta name`
 
-`some` uses the [names package](https://pypi.org/project/names/) to generate random first, last, and full names derived from 1990 US census data. 
+`geta name` uses the [names package](https://pypi.org/project/names/) to generate random first, last, and full names derived from 1990 US census data.
 
-`some` defaults to providing a full name but you can specify first, last, or full.
+`geta name` defaults to providing a full name but you can specify first, last, or full.
 
 ```
-✘ python3 some/main.py name
+✘ python3 geta/main.py name
 Sabrina Fusco
 
-✘ python3 some/main.py name --full
+✘ python3 geta/main.py name --full
 Kenneth Halligan
 
-✘ python3 some/main.py name --first
+✘ python3 geta/main.py name --first
 Valentina
 
-✘ python3 some/main.py name --first
+✘ python3 geta/main.py name --first
 Patrica
 
-✘ python3 some/main.py name --last
+✘ python3 geta/main.py name --last
 Monzo
 
-✘ python3 some/main.py name --last
+✘ python3 geta/main.py name --last
 Walker
 ```
