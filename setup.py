@@ -31,7 +31,7 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'names = geta.main:main',
+            'geta = geta.main:main',
         ],
     },
     classifiers=[

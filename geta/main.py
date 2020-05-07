@@ -11,11 +11,11 @@ Options:
 """
 
 from docopt import docopt
-import name
-from version import __version__
+from geta import name
+from geta.version import __version__
 
 
-def main(args):
+def main(args=docopt(__doc__)):
     if args["--version"]:
         print("version", __version__)
         return
@@ -30,4 +30,4 @@ def main(args):
 
 
 if __name__ == "__main__":
-    main(docopt(__doc__))
+    main()
