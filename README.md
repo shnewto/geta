@@ -38,3 +38,8 @@ Monzo
 ✘ geta name --last
 Walker
 ```
+
+## Developing
+
+If you have the [State Tool](https://www.activestate.com/products/platform/state-tool/) you can jump into developing by running `state activate shnewto/geta` from the project's top level directory. 
+
